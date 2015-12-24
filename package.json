@@ -1,7 +1,7 @@
 {
-  "name": "mobiscroll-example",
+  "name": "webpack-angular-example",
   "version": "1.0.0",
-  "description": "mobiscroll example",
+  "description": "write angular app builded by webpack && babel",
   "main": "app/bundle.js",
   "scripts": {
     "build": "webpack --config webpack.build.js --bail -p",
@@ -10,8 +10,9 @@
     "test:live": "karma start --auto-watch --no-single-run"
   },
   "keywords": [
-    "mobiscroll",
-    "webpack"
+    "angular",
+    "webpack",
+    "babel"
   ],
   "author": "yuanxin.qiu <hzuqiuyuanxin@gmail.com>",
   "license": "MIT",
