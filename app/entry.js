@@ -14,7 +14,7 @@ require('angular-ui-router');
 require('ionic-npm/js/ionic');
 require('ionic-npm/js/ionic-angular');
 
-var appModule = require('../index');
+var appModule = require('./app');
 
 window.addEventListener('load', function() {
     angular.element(window.document).ready(function() {

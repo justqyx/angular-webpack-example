@@ -24,7 +24,7 @@ module.exports = {
     context: APP,
     cache: true,
     entry: {
-        index: './core/bootstrap'
+        index: './entry.js'
     },
     output: {
         path: path.join(__dirname, 'www'),
