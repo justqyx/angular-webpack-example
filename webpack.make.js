@@ -144,7 +144,7 @@ module.exports = function(options) {
 
     var sassLoader = {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('style', 'css?sourceMap!postcss!sass?sourceMap')
+        loader: ExtractTextPlugin.extract('style', 'css?sourceMap!sass?sourceMap')
     };
 
     // Skip loading css in test mode
