@@ -1,10 +1,8 @@
 Play angular with webpack and babel
 ---
 
-A angular example used ES6 to write the JavaScript code, and
+Here's just a angular app example used ES6 to write the JavaScript code, and
 used a awesome webpack workflow to develop and build the project.
-
-Use ES6 to write Angular code
 
 ## Dependencies
 
